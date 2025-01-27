@@ -1,5 +1,54 @@
+@media(max-width: 1024px){
+    body {
+        background-position: center;       
+    }
+}
+
 @media(max-width: 768px){
+    body {        
+        padding: 0 15px;
+    }
+
+    .slider{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 496px){
+    .lista-personagens {
+        width: 250px;
+    }      
+
+    .imagem-carta{
+        width: 100%;
+    }
+
+    .slider{
+        position: relative;
+    }
+
+    .btn-seta{
+        position: absolute;
+        bottom: -13%;
+    }
+
+    #btn-avancar{
+        right: 20%;
+    }
+
+    #btn-voltar{
+        left: 20%;
+    }
+}
+
+@media(max-width: 375px){
+    body{
+        justify-content: start;
+        padding-top: 10px;
+        gap: 10px;
+    }
+
     .cabecalho{
-        background-color: red;
+        font-size: 12px;
     }
 }
